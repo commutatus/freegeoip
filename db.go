@@ -35,7 +35,7 @@ var (
 	defaultDB = filepath.Join(os.TempDir(), "freegeoip", "db.gz")
 
 	// MaxMindDB is the URL of the free MaxMind GeoLite2 database.
-	MaxMindDB = "http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz"
+	MaxMindDB = "https://commutatus-geocoder.s3-eu-west-1.amazonaws.com/GeoLite2-City.mmdb.gz"
 )
 
 // DB is the IP geolocation database.
