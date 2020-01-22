@@ -11,7 +11,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/commutatus/freegeoip"
+	"github.com/fiorix/freegeoip"
 	"github.com/kelseyhightower/envconfig"
 )
 
